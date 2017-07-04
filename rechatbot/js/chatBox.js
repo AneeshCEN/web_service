@@ -5,7 +5,7 @@
   	$scope.init = function(){
   		$scope.chatToggle('close');
   		$scope.userId = guid();
-	    $scope.rootUrlBot = 'http://chatbot.kreara.net:8001/RE_bot/Response';
+	    $scope.rootUrlBot = 'http://127.0.0.1:8000/Score';
 	    $scope.messageList = [];
       $scope.realEstatesDataSeller = {};
       $scope.realEstatesDataBuyer = [];
