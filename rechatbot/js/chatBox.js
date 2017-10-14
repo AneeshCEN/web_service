@@ -5,7 +5,7 @@
   	$scope.init = function(){
   		$scope.chatToggle('close');
   		$scope.userId = guid();
-	    $scope.rootUrlBot = 'http://127.0.0.1:8000/Score';
+	    $scope.rootUrlBot = 'http://127.0.0.1:8000/Ramanan';
 	    $scope.messageList = [];
       $scope.realEstatesDataSeller = {};
       $scope.realEstatesDataBuyer = [];
